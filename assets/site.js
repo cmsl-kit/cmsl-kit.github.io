@@ -2,10 +2,12 @@
 
 const NAV_ITEMS = [
   { href: "index.html",        ko: "홈",        en: "Home" },
+  { href: "research.html",     ko: "연구분야",   en: "Research" },
   { href: "professor.html",    ko: "교수소개",   en: "Professor" },
   { href: "members.html",      ko: "구성원",     en: "Members" },
   { href: "publications.html", ko: "논문",      en: "Publications" },
-  { href: "news.html",         ko: "소식",      en: "News" }
+  { href: "news.html",         ko: "소식",      en: "News" },
+  { href: "contact.html",      ko: "연락처",     en: "Contact" }
 ];
 
 function currentPage() {
