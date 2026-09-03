@@ -23,11 +23,13 @@ Claude에게 "논문 하나 추가해줘"처럼 요청해도 됩니다.
 
 ## 파일 구성
 
-- index.html — 홈 (모집 공지, 연구실 소개, 연구분야, 연락처)
-- professor.html — 교수 소개 (경력/학력)
+- index.html — 홈
+- research.html — 연구분야 상세
+- professor.html — 교수 소개 (경력/학력/수상)
 - members.html — 구성원
 - publications.html — 논문 목록 (data.js에서 자동 생성)
 - news.html — 소식 (data.js에서 자동 생성)
+- contact.html — 연락처, 찾아오시는 길, 모집 안내
 - assets/style.css — 전체 스타일
 - assets/site.js — 내비게이션/푸터/언어 전환/목록 렌더링
 - assets/data.js — 논문·소식 데이터
