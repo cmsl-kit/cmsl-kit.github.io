@@ -151,11 +151,6 @@ const PUBLICATIONS = [
 
 const NEWS = [
   {
-    date: "2026.09",
-    ko: "연구실 홈페이지를 오픈했습니다.",
-    en: "Our lab website is now live."
-  },
-  {
     date: "2026.03",
     ko: "박영태 교수가 국립금오공과대학교 재료공학부 신소재공학전공에 부임했습니다.",
     en: "Prof. Youngtae Park joined the Department of Materials Science and Engineering at Kumoh National Institute of Technology."
