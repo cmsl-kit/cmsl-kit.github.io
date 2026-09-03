@@ -159,10 +159,5 @@ const NEWS = [
     date: "2026.03",
     ko: "박영태 교수가 국립금오공과대학교 재료공학부 신소재공학전공에 부임했습니다.",
     en: "Prof. Youngtae Park joined the Department of Materials Science and Engineering at Kumoh National Institute of Technology."
-  },
-  {
-    date: "2025",
-    ko: "CoMo-LDH 기체확산전극 연구가 Advanced Science에 게재되었습니다.",
-    en: "Our work on CoMo-LDH gas diffusion electrodes was published in Advanced Science."
   }
 ];
