@@ -11,74 +11,65 @@
 <body>
 <nav id="site-nav"></nav>
 
-<header class="hero"><div class="wrap">
-  <div class="eyebrow">Computational Materials Science Laboratory · KIT</div>
+<div class="wrap">
+  <div class="notice">
+    <span class="lang-ko">대학원생(석사/박사)과 학부연구생을 모집하고 있습니다. 관심 있는 학생은 이메일로 연락 주세요.</span>
+    <span class="lang-en" style="display:inline">Graduate (M.S./Ph.D.) and undergraduate researcher positions available. Please contact us by email.</span>
+  </div>
+</div>
+
+<header class="home-head"><div class="wrap">
+  <div class="label">Computational Materials Science Laboratory</div>
   <h1>
-    <span class="lang-ko">계산과 실험, 그리고 AI로<br>에너지 소재의 미래를 설계합니다</span>
-    <span class="lang-en">Designing the future of energy materials with computation, experiment, and AI</span>
+    <span class="lang-ko">전산재료과학연구실</span>
+    <span class="lang-en">Computational Materials Science Lab</span>
   </h1>
   <p class="sub">
-    <span class="lang-ko">전산재료과학연구실은 제일원리 계산과 전기화학 실험, 인공지능을 결합하여 수전해 촉매를 비롯한 차세대 에너지 소재를 탐색합니다.</span>
-    <span class="lang-en">We combine first-principles calculations, electrochemical experiments, and machine learning to discover next-generation energy materials, from water-electrolysis catalysts and beyond.</span>
+    <span class="lang-ko">국립금오공과대학교 재료공학부 신소재공학전공 · 박영태 교수</span>
+    <span class="lang-en">Dept. of Materials Science and Engineering, Kumoh National Institute of Technology · Prof. Youngtae Park</span>
   </p>
-  <div class="kw">
-    <span>DFT / VASP</span><span>GNN Screening</span><span>OER · HER</span><span>PEMWE · AEMWE</span><span>AI Materials Discovery</span>
-  </div>
-  <svg class="curve" viewBox="0 0 460 220" fill="none" aria-hidden="true">
-    <path d="M10 200 C 120 198, 200 190, 260 150 S 380 30, 450 12" stroke="#0F7B7E" stroke-width="2.5"/>
-    <path d="M10 205 C 140 204, 240 200, 310 178 S 420 90, 450 60" stroke="#B0703C" stroke-width="1.5" stroke-dasharray="5 5"/>
-    <g font-family="IBM Plex Mono" font-size="10" fill="#4A5C66">
-      <text x="16" y="188">1.4</text><text x="16" y="120">1.6</text><text x="16" y="52">1.8</text>
-      <text x="380" y="216">j / mA cm-2</text>
-    </g>
-    <line x1="10" y1="210" x2="450" y2="210" stroke="#D4DCDA"/>
-  </svg>
 </div></header>
 
-<section><div class="wrap">
-  <div class="sec-head"><h2><span class="lang-ko">연구분야</span><span class="lang-en">Research Areas</span></h2><span class="mono">RESEARCH</span></div>
-  <div class="res-grid">
-    <div class="res"><div class="no">Theme 1</div>
-      <h3><span class="lang-ko">전산재료과학</span><span class="lang-en">Computational Materials Science</span></h3>
-      <p><span class="lang-ko">DFT/VASP 기반 제일원리 계산과 GNN 기반 소재 스크리닝으로 촉매 표면의 반응 메커니즘을 규명합니다.</span>
-      <span class="lang-en">First-principles (DFT/VASP) calculations and GNN-based screening to elucidate reaction mechanisms on catalyst surfaces.</span></p>
-      <a href="research.html#theme1"><span class="lang-ko">자세히 보기 →</span><span class="lang-en">Learn more →</span></a>
-    </div>
-    <div class="res"><div class="no">Theme 2</div>
-      <h3><span class="lang-ko">전기화학 에너지 변환</span><span class="lang-en">Electrochemical Energy Conversion</span></h3>
-      <p><span class="lang-ko">OER/HER 전기촉매를 설계·합성하고 PEM/AEM 수전해 시스템에서 성능과 내구성을 검증합니다.</span>
-      <span class="lang-en">Design and synthesis of OER/HER electrocatalysts, validated in PEM/AEM water-electrolysis systems.</span></p>
-      <a href="research.html#theme2"><span class="lang-ko">자세히 보기 →</span><span class="lang-en">Learn more →</span></a>
-    </div>
-    <div class="res"><div class="no">Theme 3</div>
-      <h3><span class="lang-ko">AI 기반 소재 탐색</span><span class="lang-en">AI-driven Materials Discovery</span></h3>
-      <p><span class="lang-ko">머신러닝으로 방대한 조성 공간을 탐색하고, 계산과 실험을 잇는 데이터 기반 촉매 설계를 수행합니다.</span>
-      <span class="lang-en">Machine learning navigates vast composition spaces, closing the loop between computation and experiment.</span></p>
-      <a href="research.html#theme3"><span class="lang-ko">자세히 보기 →</span><span class="lang-en">Learn more →</span></a>
-    </div>
-  </div>
-</div></section>
-
-<section class="panel"><div class="wrap two-col">
-  <div>
-    <div class="sec-head"><h2><span class="lang-ko">연구실 소식</span><span class="lang-en">News</span></h2><span class="mono">NEWS</span></div>
-    <ul class="news" id="news-list" data-limit="3"></ul>
-  </div>
-  <div>
-    <div class="sec-head"><h2>Recent Publications</h2><span class="mono">PAPERS</span></div>
-    <div id="recent-pubs"></div>
-  </div>
+<section class="first" style="padding-top:0"><div class="wrap">
+  <p>
+    <span class="lang-ko">전산재료과학연구실은 제일원리 계산과 전기화학 실험, 머신러닝을 결합하여 수전해 촉매를 비롯한 차세대 에너지 소재를 연구합니다. 계산이 후보 소재를 제안하면 실험이 검증하고, 그 데이터가 다시 모델을 개선하는 선순환을 지향합니다.</span>
+    <span class="lang-en">We combine first-principles calculations, electrochemical experiments, and machine learning to study next-generation energy materials, including water-electrolysis catalysts. Calculations propose candidates, experiments verify them, and the resulting data refines our models.</span>
+  </p>
 </div></section>
 
 <section><div class="wrap">
-  <div class="join">
-    <div>
-      <h3><span class="lang-ko">함께 연구할 학생을 찾습니다</span><span class="lang-en">Join Our Lab</span></h3>
-      <p><span class="lang-ko">대학원생(석사/박사)과 학부연구생을 상시 모집합니다. 계산과 실험 어느 쪽이든 환영합니다.</span>
-      <span class="lang-en">We are recruiting graduate students and undergraduate researchers, from both computational and experimental backgrounds.</span></p>
-    </div>
-    <a class="btn" href="contact.html"><span class="lang-ko">모집 안내 보기</span><span class="lang-en">How to Apply</span></a>
-  </div>
+  <div class="label">Research</div>
+  <h2><span class="lang-ko">연구분야</span><span class="lang-en">Research Areas</span></h2>
+  <ul class="areas">
+    <li><span class="no">01</span><span>
+      <span class="t"><span class="lang-ko">전산재료과학</span><span class="lang-en">Computational Materials Science</span></span>
+      <div class="d"><span class="lang-ko">DFT/VASP 기반 제일원리 계산, GNN 기반 소재 스크리닝, 촉매 표면 반응 메커니즘 규명</span>
+      <span class="lang-en">First-principles (DFT/VASP) calculations, GNN-based screening, and reaction mechanisms on catalyst surfaces</span></div>
+    </span></li>
+    <li><span class="no">02</span><span>
+      <span class="t"><span class="lang-ko">전기화학 에너지 변환</span><span class="lang-en">Electrochemical Energy Conversion</span></span>
+      <div class="d"><span class="lang-ko">OER/HER 전기촉매 설계·합성, PEM/AEM 수전해 단위전지 평가, 그린수소</span>
+      <span class="lang-en">Design and synthesis of OER/HER electrocatalysts, PEM/AEM single-cell evaluation, green hydrogen</span></div>
+    </span></li>
+    <li><span class="no">03</span><span>
+      <span class="t"><span class="lang-ko">AI 기반 소재 탐색</span><span class="lang-en">AI-driven Materials Discovery</span></span>
+      <div class="d"><span class="lang-ko">머신러닝을 활용한 조성 공간 탐색, 계산-실험을 잇는 데이터 기반 촉매 설계</span>
+      <span class="lang-en">Machine-learning exploration of composition spaces and data-driven catalyst design bridging computation and experiment</span></div>
+    </span></li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <div class="label">Contact</div>
+  <h2><span class="lang-ko">연락처</span><span class="lang-en">Contact</span></h2>
+  <ul class="rows">
+    <li><span class="k">EMAIL</span><span><a href="mailto:youngtae.park@kumoh.ac.kr">youngtae.park@kumoh.ac.kr</a></span></li>
+    <li><span class="k">TEL</span><span>054-478-7729</span></li>
+    <li><span class="k">OFFICE</span><span>
+      <span class="lang-ko">국립금오공과대학교 테크노관 132호 (경북 구미시 대학로 61)</span>
+      <span class="lang-en">Room 132, Techno Building, Kumoh National Institute of Technology, 61 Daehak-ro, Gumi, Korea</span>
+    </span></li>
+  </ul>
 </div></section>
 
 <footer id="site-footer"></footer>
