@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>전산재료과학연구실 | Computational Materials Science Lab</title>
+<meta name="description" content="국립금오공과대학교 전산재료과학연구실. 제일원리 계산, 전기화학 실험, AI를 결합한 에너지 소재 연구.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav id="site-nav"></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">Computational Materials Science Laboratory · KIT</div>
+  <h1>
+    <span class="lang-ko">계산과 실험, 그리고 AI로<br>에너지 소재의 미래를 설계합니다</span>
+    <span class="lang-en">Designing the future of energy materials with computation, experiment, and AI</span>
+  </h1>
+  <p class="sub">
+    <span class="lang-ko">전산재료과학연구실은 제일원리 계산과 전기화학 실험, 인공지능을 결합하여 수전해 촉매를 비롯한 차세대 에너지 소재를 탐색합니다.</span>
+    <span class="lang-en">We combine first-principles calculations, electrochemical experiments, and machine learning to discover next-generation energy materials, from water-electrolysis catalysts and beyond.</span>
+  </p>
+  <div class="kw">
+    <span>DFT / VASP</span><span>GNN Screening</span><span>OER · HER</span><span>PEMWE · AEMWE</span><span>AI Materials Discovery</span>
+  </div>
+  <svg class="curve" viewBox="0 0 460 220" fill="none" aria-hidden="true">
+    <path d="M10 200 C 120 198, 200 190, 260 150 S 380 30, 450 12" stroke="#0F7B7E" stroke-width="2.5"/>
+    <path d="M10 205 C 140 204, 240 200, 310 178 S 420 90, 450 60" stroke="#B0703C" stroke-width="1.5" stroke-dasharray="5 5"/>
+    <g font-family="IBM Plex Mono" font-size="10" fill="#4A5C66">
+      <text x="16" y="188">1.4</text><text x="16" y="120">1.6</text><text x="16" y="52">1.8</text>
+      <text x="380" y="216">j / mA cm-2</text>
+    </g>
+    <line x1="10" y1="210" x2="450" y2="210" stroke="#D4DCDA"/>
+  </svg>
+</div></header>
+
+<section><div class="wrap">
+  <div class="sec-head"><h2><span class="lang-ko">연구분야</span><span class="lang-en">Research Areas</span></h2><span class="mono">RESEARCH</span></div>
+  <div class="res-grid">
+    <div class="res"><div class="no">Theme 1</div>
+      <h3><span class="lang-ko">전산재료과학</span><span class="lang-en">Computational Materials Science</span></h3>
+      <p><span class="lang-ko">DFT/VASP 기반 제일원리 계산과 GNN 기반 소재 스크리닝으로 촉매 표면의 반응 메커니즘을 규명합니다.</span>
+      <span class="lang-en">First-principles (DFT/VASP) calculations and GNN-based screening to elucidate reaction mechanisms on catalyst surfaces.</span></p>
+      <a href="research.html#theme1"><span class="lang-ko">자세히 보기 →</span><span class="lang-en">Learn more →</span></a>
+    </div>
+    <div class="res"><div class="no">Theme 2</div>
+      <h3><span class="lang-ko">전기화학 에너지 변환</span><span class="lang-en">Electrochemical Energy Conversion</span></h3>
+      <p><span class="lang-ko">OER/HER 전기촉매를 설계·합성하고 PEM/AEM 수전해 시스템에서 성능과 내구성을 검증합니다.</span>
+      <span class="lang-en">Design and synthesis of OER/HER electrocatalysts, validated in PEM/AEM water-electrolysis systems.</span></p>
+      <a href="research.html#theme2"><span class="lang-ko">자세히 보기 →</span><span class="lang-en">Learn more →</span></a>
+    </div>
+    <div class="res"><div class="no">Theme 3</div>
+      <h3><span class="lang-ko">AI 기반 소재 탐색</span><span class="lang-en">AI-driven Materials Discovery</span></h3>
+      <p><span class="lang-ko">머신러닝으로 방대한 조성 공간을 탐색하고, 계산과 실험을 잇는 데이터 기반 촉매 설계를 수행합니다.</span>
+      <span class="lang-en">Machine learning navigates vast composition spaces, closing the loop between computation and experiment.</span></p>
+      <a href="research.html#theme3"><span class="lang-ko">자세히 보기 →</span><span class="lang-en">Learn more →</span></a>
+    </div>
+  </div>
+</div></section>
+
+<section class="panel"><div class="wrap two-col">
+  <div>
+    <div class="sec-head"><h2><span class="lang-ko">연구실 소식</span><span class="lang-en">News</span></h2><span class="mono">NEWS</span></div>
+    <ul class="news" id="news-list" data-limit="3"></ul>
+  </div>
+  <div>
+    <div class="sec-head"><h2>Recent Publications</h2><span class="mono">PAPERS</span></div>
+    <div id="recent-pubs"></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="join">
+    <div>
+      <h3><span class="lang-ko">함께 연구할 학생을 찾습니다</span><span class="lang-en">Join Our Lab</span></h3>
+      <p><span class="lang-ko">대학원생(석사/박사)과 학부연구생을 상시 모집합니다. 계산과 실험 어느 쪽이든 환영합니다.</span>
+      <span class="lang-en">We are recruiting graduate students and undergraduate researchers, from both computational and experimental backgrounds.</span></p>
+    </div>
+    <a class="btn" href="contact.html"><span class="lang-ko">모집 안내 보기</span><span class="lang-en">How to Apply</span></a>
+  </div>
+</div></section>
+
+<footer id="site-footer"></footer>
+<script src="assets/data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
