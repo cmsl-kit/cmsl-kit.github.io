@@ -9,6 +9,7 @@ const PUBLICATIONS = [
     authors: "S. J. Lee†, Y. Park†, S. H. Lee†, S. Y. Park, I. T. Kim, Y. Kim, B. S. Soh, G. H. Kim, J. Lee*, S. Lee*, K. Shin*, Y. S. Park*",
     journal: "Advanced Science",
     volume: "e08370 (2025)",
+    note: "IF 14.1 · JCR top 10%",
     highlight: true
   },
   {
@@ -17,6 +18,7 @@ const PUBLICATIONS = [
     authors: "Y. S. Park, C. Kim, J. Lee, J.-Y. Jeong, Y. Park, M. J. Jang, S. M. Choi*",
     journal: "International Journal of Energy Research",
     volume: "vol. 2025, 3025302 (2025)",
+    note: "JCR top 3%",
     highlight: false
   },
   {
@@ -25,6 +27,7 @@ const PUBLICATIONS = [
     authors: "Y. H. Yun†, J. Choi†, Y. Park, H. Park, G. Doo, M. J. Kim, S. S. Han, J. H. Park*, S. Lee*, C. Lee*, H. S. Cho*",
     journal: "Small",
     volume: "2503601 (2025)",
+    note: "IF 12.1 · JCR top 10%",
     highlight: false
   },
   {
@@ -33,6 +36,7 @@ const PUBLICATIONS = [
     authors: "C. Lee†, Y. H. Yun†, S.-H. Kim†, G. Doo, S. Lee, H. Park, Y. Park, J. Shin, H.-S. Cho, S.-K. Kim, E. Cho*, C. Jung*, M.-J. Kim*",
     journal: "Small",
     volume: "vol. 21, issue 4, 2405468 (2025)",
+    note: "IF 12.1 · JCR top 10%",
     highlight: false
   },
   {
@@ -41,6 +45,7 @@ const PUBLICATIONS = [
     authors: "J. S. Ha†, Y. Park†, J.-H. Lee, J. S. Ha, S. J. Lee, I. T. Kim, H. Jin, S. M. Kim, S. M. Choi*, H. M. Lee*, Y. S. Park*",
     journal: "Advanced Science",
     volume: "vol. 11, issue 25, 2401782 (2024)",
+    note: "IF 14.1 · JCR top 10%",
     highlight: true
   },
   {
@@ -49,6 +54,7 @@ const PUBLICATIONS = [
     authors: "N. Naresh†, Y. Park†, S. H. Jeong, S. J. Lee, D. P. Lee, S. H. Lee, G. H. Ryu, Y. H. Jung, J.-H. Kim",
     journal: "Small",
     volume: "2406249 (2024)",
+    note: "IF 12.1 · JCR top 10%",
     highlight: false
   },
   {
@@ -65,6 +71,7 @@ const PUBLICATIONS = [
     authors: "Y. S. Park†, Y. Park†, M. J. Jang†, J. Lee, C. Kim, M. G. Park, J. Yang, J. Choi, H. M. Lee* and S. M. Choi*",
     journal: "Chemical Engineering Journal",
     volume: "vol. 472, 145150 (2023)",
+    note: "IF 13.4 · JCR top 5%",
     highlight: false
   },
   {
@@ -73,6 +80,7 @@ const PUBLICATIONS = [
     authors: "Y. Park†, C.-K. Hwang†, K. Bang, D. Hong, H. Nam, S. Kwon, B. C. Yeo, D. Go, J. An, B.-K. Ju, S. H. Kim, J. Y. Byun, S. Y. Lee, J. M. Kim*, D. Kim*, S. S. Han* and H. M. Lee*",
     journal: "Applied Catalysis B: Environmental",
     volume: "vol. 339, 123128 (2023)",
+    note: "IF 20.3 · JCR top 3%",
     highlight: false
   },
   {
@@ -89,6 +97,7 @@ const PUBLICATIONS = [
     authors: "K. Bang, D. Hong, Y. Park, D. Kim*, S. S. Han* and H. M. Lee*",
     journal: "Nature Communications",
     volume: "vol. 14, 3004 (2023)",
+    note: "IF 14.7 · JCR top 10%",
     highlight: true
   },
   {
@@ -97,6 +106,7 @@ const PUBLICATIONS = [
     authors: "C. Lee†, K. Shin†, Y. Park†, Y. H. Yoon, M. Kim, W.-C. Cho, C.-H. Kim, J. H. Lee, S.-K. Kim, H. M. Lee, H. Y. Kim*, S. Lee*, G. Henkelman* and H.-S. Cho*",
     journal: "Advanced Functional Materials",
     volume: "vol. 33, issue 25, 2301557 (2023)",
+    note: "IF 18.5 · JCR top 5%",
     highlight: false
   },
   {
@@ -105,6 +115,7 @@ const PUBLICATIONS = [
     authors: "Y. Park†, K. Shin†, C. Lee†, S. Lee, Y. Lee, C. H. Kim, H. S. Cho*, G. Henkelman* and H. M. Lee*",
     journal: "Chemical Engineering Journal",
     volume: "vol. 446, part 2 (2022)",
+    note: "IF 15.1 · JCR top 5%",
     highlight: false
   },
   {
@@ -113,6 +124,7 @@ const PUBLICATIONS = [
     authors: "S. Choi†, Y. Park†, J. Choi, C. Lee, H. S. Cho, C. H. Kim, J. Koo* and H. M. Lee*",
     journal: "ACS Sustainable Chemistry & Engineering",
     volume: "vol. 9, pp. 7519-7528 (2021)",
+    note: "JCR top 10%",
     highlight: false
   },
   {

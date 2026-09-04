@@ -73,7 +73,7 @@ function renderPublications() {
     html += '<div class="pub-item">' +
       '<div class="t">' + p.title + "</div>" +
       '<div class="a">' + authors + "</div>" +
-      '<div class="v">' + p.journal + ", " + p.volume + "</div></div>";
+      '<div class="v">' + p.journal + ", " + p.volume + (p.note ? " · " + p.note : "") + "</div></div>";
   });
   el.innerHTML = html;
 }
