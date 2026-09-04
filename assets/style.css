@@ -5,7 +5,7 @@
 }
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans KR','Noto Sans KR',sans-serif;line-height:1.65;font-size:16px}
+body{background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans KR','Noto Sans KR',sans-serif;line-height:1.65;font-size:16px;word-break:keep-all;overflow-wrap:break-word}
 .serif{font-family:'IBM Plex Serif',serif}
 .mono{font-family:'IBM Plex Mono',monospace}
 a{color:var(--accent);text-decoration:none}
