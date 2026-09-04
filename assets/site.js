@@ -58,6 +58,23 @@ function renderFooter() {
     "</div>";
 }
 
+// IF / JCR 등급 배지 (값이 클수록, 퍼센트가 낮을수록 더 두드러지게)
+function noteHtml(note) {
+  if (!note) return "";
+  return note.split("·").map(function (s) { return s.trim(); }).filter(Boolean).map(function (s) {
+    var m;
+    if ((m = s.match(/^IF\s*([\d.]+)/i))) {
+      var v = parseFloat(m[1]);
+      var cls = v >= 20 ? " if20" : v >= 10 ? " if10" : "";
+      return '<span class="tag' + cls + '">' + s + "</span>";
+    }
+    if ((m = s.match(/^JCR\s*top\s*(\d+)%/i))) {
+      return '<span class="tag jcr' + m[1] + '">' + s + "</span>";
+    }
+    return '<span class="tag">' + s + "</span>";
+  }).join("");
+}
+
 // 논문 목록 (publications.html)
 function renderPublications() {
   const el = document.getElementById("pub-list");
@@ -73,7 +90,7 @@ function renderPublications() {
     html += '<div class="pub-item">' +
       '<div class="t">' + p.title + "</div>" +
       '<div class="a">' + authors + "</div>" +
-      '<div class="v">' + p.journal + ", " + p.volume + (p.note ? " · " + p.note : "") + "</div></div>";
+      '<div class="v">' + p.journal + ", " + p.volume + noteHtml(p.note) + "</div></div>";
   });
   el.innerHTML = html;
 }
