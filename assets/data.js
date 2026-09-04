@@ -25,7 +25,7 @@ const PUBLICATIONS = [
     authors: "Y. H. Yun†, J. Choi†, Y. Park, H. Park, G. Doo, M. J. Kim, S. S. Han, J. H. Park*, S. Lee*, C. Lee*, H. S. Cho*",
     journal: "Small",
     volume: "2503601 (2025)",
-    highlight: true
+    highlight: false
   },
   {
     year: 2025,
@@ -73,7 +73,7 @@ const PUBLICATIONS = [
     authors: "Y. Park†, C.-K. Hwang†, K. Bang, D. Hong, H. Nam, S. Kwon, B. C. Yeo, D. Go, J. An, B.-K. Ju, S. H. Kim, J. Y. Byun, S. Y. Lee, J. M. Kim*, D. Kim*, S. S. Han* and H. M. Lee*",
     journal: "Applied Catalysis B: Environmental",
     volume: "vol. 339, 123128 (2023)",
-    highlight: true
+    highlight: false
   },
   {
     year: 2023,
