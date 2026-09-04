@@ -126,6 +126,8 @@ h3{font-family:'IBM Plex Serif',serif;font-weight:600}
 .mem .nm{font-weight:700;font-size:17px}
 .mem .rl{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--accent);margin-top:4px}
 .mem p{font-size:14px;color:var(--ink-soft);margin-top:10px}
+.mem-photo{width:112px;height:140px;object-fit:cover;object-position:top center;border:1px solid var(--line);border-radius:2px;display:block;margin-bottom:16px}
+.mem-mail{font-family:'IBM Plex Mono',monospace;font-size:12.5px;word-break:break-all}
 .mem.open{border-style:dashed;background:transparent;display:flex;flex-direction:column;justify-content:center;text-align:center}
 
 /* contact */
